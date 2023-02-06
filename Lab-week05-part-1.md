@@ -1,5 +1,5 @@
-# การทดลองสัปดาห์ที่ 7.1 #
-## ศึกษา data structure  และ behavior ของ predefined type ในภาษา C#  ##
+# การทดลองสัปดาห์ที่ 5.1 #
+## ศึกษา data structure  และ methods ของ predefined type ในภาษา C#  ##
 
 
 ### Learning Outcome ###
@@ -23,6 +23,9 @@ Predefined type ในภาษา C# มีอยู่ด้วยกัน 16
 ##### ลำดับขั้นการทดลอง #####
 
 1. สร้าง console project ใน Visual studio สมมติว่าตั้งชื่อ project เป็น `Week05_Lab1`
+
+
+
 2. แก้ไขไฟล์ `program.cs` มีเนื้อหาดังต่อไปนี้
 
 
