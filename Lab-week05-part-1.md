@@ -141,3 +141,153 @@ __หมายเหตุ__
 
 เขียนโค้ด plantuml สำหรับ type ชนิดอื่นๆ โดยใช้วิธีเดียวกันกับขั้นตอนที่ 3  เพื่อสร้าง diagram สำหรับ predefined type ทุกชนิด
 
+```
+@startuml
+class SByte {
+
+MaxValue : SByte
+MinValue : SByte
+Parse(input: string) : SByte
+TryParse(input: string, value: out SByte) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class Byte {
+
+MaxValue : Byte
+MinValue : Byte
+Parse(input: string) : Byte
+TryParse(input: string, value: out Byte) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class Int16 {
+
+MaxValue : Int16
+MinValue : Int16
+Parse(input: string) : Int16
+TryParse(input: string, value: out Int16) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class UInt16 {
+
+MaxValue : UInt16
+MinValue : UInt16
+Parse(input: string) : UInt16
+TryParse(input: string, value: out UInt16) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class Int32 {
+
+MaxValue : Int32
+MinValue : Int32
+Parse(input: string) : Int32
+TryParse(input: string, value: out Int32) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class UInt32 {
+
+MaxValue : UInt32
+MinValue : UInt32
+Parse(input: string) : UInt32
+TryParse(input: string, value: out UInt32) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class Int64 {
+
+MaxValue : Int64
+MinValue : Int64
+Parse(input: string) : Int64
+TryParse(input: string, value: out Int64) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class UInt64 {
+
+MaxValue : UInt64
+MinValue : UInt64
+Parse(input: string) : UInt64
+TryParse(input: string, value: out UInt64) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class Single {
+
+MaxValue : Single
+MinValue : Single
+NaN : Single
+Infinity : Single
+NegativeInfinity : Single
+Parse(input: string) : Single
+TryParse(input: string, value: out Single) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class Double {
+
+MaxValue : Double
+MinValue : Double
+NaN : Double
+Infinity : Double
+NegativeInfinity : Double
+Parse(input: string) : Double
+TryParse(input: string, value: out Double) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+class Decimal {
+
+MaxValue : Decimal
+MinValue : Decimal
+Parse(input: string) : Decimal
+TryParse(input: string, value: out Decimal) : bool
+CompareTo(obj: object) : int
+Equals(obj: object) : bool
+GetHashCode() : int
+GetTypeCode() : TypeCode
+ToString() : string
+}
+SByte --> Byte
+Int16 --> UInt16
+Int32 --> UInt32
+Int64 --> UInt64
+Single --> Double
+@enduml
+```
+
+![image](https://github.com/TanapatPluemchai/OOP2565-Week-05/assets/115067806/017f8d72-8840-44ca-8b19-666f646a03b2)
+
