@@ -1,15 +1,24 @@
-# Week-05 หลักและการใช้งาน Types
+# Week-04 การให้นิยามวัตถุและ UML Diagram (2)
 
-## 5.1 Types, predefined and user-defined type
+## หัวข้อที่จะเรียนรู้
 
-## 5.2 The Stack and the Heap
+### 4.1 Generalization Abstraction
 
-## 5.3 Value Types and Reference Types
+#### 4.1.1 หลักการของ Generalization Abstraction
 
-## 5.4 Type Casting
+#### 4.1.2 หลักการของ Specialization Abstraction
 
-## 5.5 การปฏิบัติการทดลอง  การใช้งาน types ในภาษา C#
+#### 4.1.3 กฏเกณฑ์และกลไกของ Inheritance
 
-### 5.5.1 [การทดลอง 5.1](./Lab-week05-part-1.md) 
+#### 4.1.4 กฏเกณฑ์และกลไกของ Polymorphism
 
-### 5.5.2 [การทดลอง 5.2](./Lab-week05-part-2.md) 
+#### 4.1.5 การปฏิบัติการทดลอง  การวาดแบบจำลอง Generalization Abstraction ด้วยโปรแกรม plantUML
+
+###  4.2 Association Abstraction
+
+#### 4.2.1 หลักการของ Association Abstraction
+
+#### 4.2.2 การกำหนด Cardinality, Required และ Optional Components  ของวัตถุ
+
+### [4.3 การปฏิบัติการทดลอง การวาดแบบจำลอง Generalization และ Association ด้วยโปรแกรม plantUML](./Week04-lab-part-01.md)
+
